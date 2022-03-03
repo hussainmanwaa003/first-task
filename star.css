@@ -1,0 +1,123 @@
+body{
+    background-color: lightcoral;
+}
+#sec1{
+    color: rgb(96, 209, 51);
+    background-color: rgb(43, 7, 85);
+    padding: 20px;
+    border: 10px double rgb(112, 5, 32);
+    /* border-style: double; */
+    border-radius: 100px;
+    border-top: 10px groove rgb(112, 5, 32);
+    border-left: 10px dotted greenyellow;
+    border-right: 10px dotted greenyellow;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+#sec2{
+    color: hotpink;
+    background-color: maroon;
+    padding: 30px;
+    margin: 10px;
+    border-top: 20px double fuchsia;
+    border-bottom: 20px groove gold;
+    border-left: 20px ridge darkturquoise;
+    border-right: 20px ridge darkturquoise;
+border-radius: 50px;
+
+    /* border-style: ridge; */
+}
+.cl1a{
+    color: dimgray;
+    background-color: gainsboro;
+    line-height: 50px;
+    text-transform: uppercase;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 10px;
+
+}
+.cl1b{
+    color: rgb(87, 212, 196);
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+
+}
+.cl1b::first-letter{
+    color: rgb(46, 2, 2);
+   font-size: 40px;
+    /* background-color: lightcoral; */
+    font-family: cursive;
+}
+.cl1b::first-line{
+    color: rgb(13, 88, 168);
+
+}
+.cl1c{
+    color: rgb(199, 122, 122);
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.cl1c::before{
+    content: "2nd para";
+    display: block;
+    color: magenta;
+    background-color: rgb(4, 48, 38);
+}
+.cl1c::after{
+    content: "End";
+    display: block;
+    background-color: rgb(7, 7, 68);
+    color: oldlace;
+}
+.cl2a{
+    color: skyblue;
+    list-style-type: circle;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(139, 27, 89);
+}
+.cl2b{
+    color: brown;
+    background-color: cyan;
+    
+}
+.cl2b:hover{
+    background-color: cornflowerblue;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.cl2b:active{
+    color: grey;
+    background-color: rgb(53, 73, 6);
+}
+.cl2b{
+    position: relative;
+    left: 50px;
+    /* top: 50px; */
+
+}
+.cl2c{
+    color: rgb(138, 218, 9);
+    
+
+
+}
+.cl2c:hover{
+    color: rgb(22, 82, 122);
+    /* background-color: rgb(7, 44, 42); */
+}
+.cl2d{
+    height: 400px;
+    width: 500px;
+    border: 20px groove darkorchid;
+    border-radius: 5%;
+}
